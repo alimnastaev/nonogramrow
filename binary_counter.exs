@@ -1,5 +1,5 @@
 defmodule BinaryCounter.V1 do
-  @moduledoc false
+  @moduledoc "Binary Counter with recursion and guards"
 
   def nonogramrow(), do: []
   def nonogramrow(input), do: count(input)
@@ -24,7 +24,7 @@ defmodule BinaryCounter.V1 do
 end
 
 defmodule BinaryCounter.V2 do
-  @moduledoc false
+  @moduledoc "Binary Counter with recursion and function head pattern matching"
 
   def nonogramrow(), do: []
   def nonogramrow(input), do: count(input)
